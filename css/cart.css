@@ -1,0 +1,69 @@
+tr, th {
+    background-color: black;
+}
+th {
+    color: white;
+    padding: 10px 15px;
+}
+
+/* Cart.php */
+/* Title area */
+#title {
+    width: 100%;
+    height: 60px;
+}
+#title h2 {
+    font-size: 30px;
+    padding: 10px;
+}
+#title input {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    width: 80px;
+    height: 30px;
+    margin: 15px 10px;
+    border-radius: 3px;
+}
+#title input:hover {
+    background-color: black;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* Table area */
+#list {
+    width: 100%;
+}
+#list th{
+	background-color: black;
+	color: white;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: Arial;
+}
+#list td{
+	background-color: black;
+	color: white;
+    font-size: 12px;
+    padding: 5px 0;
+    font-family: Arial;
+}
+
+#total tr {
+    background-color: white;
+}
+
+/* Clear.php */
+#message {
+    text-align: center;
+}
+#message a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}

@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#display {
+    margin-top: 50px;
+}
+#prodInfo {
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+}
+#prodInfo > caption {
+    font-size: 30px;
+    padding: 20px 0;
+    font-weight: 700;
+    font-family: Arial;
+}
+#prodInfo td {
+    padding: 10px;
+    font-family: Arial;
+}
+#prodInfo input:hover {
+    background-color: black;
+    color:white;
+}
+input[type="submit"] {
+    width: 100px;
+    height: 30px;
+}

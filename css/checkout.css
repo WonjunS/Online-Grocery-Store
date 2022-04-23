@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------------------------------------*/
+/* checkout.php */
+/* Title */
+#title {
+    margin-top: 10px;
+}
+h3 {
+    font-size: 40px;
+    text-align: center;
+    font-family: Helvetica;
+}
+th, td {
+    font-family: Arial;
+}
+/* Table area */
+#list {
+    width: 600px;
+    margin: 20px auto;
+    border: 1px solid #222; 
+    border-collapse: collapse;
+}
+#list th {
+    border: 1px solid #222; 
+    border-collapse: collapse;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+#list td {
+    border: 1px solid #222; 
+    border-collapse: collapse;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+/* Checkout form */
+#checkout {
+    width: 90%;
+    margin: 100px auto;
+}
+#checkout input[type=submit]:hover {
+    background-color: black;
+    color:white;
+}
+#checkout fieldset {
+    border: none;
+}
+#checkout legend{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Helvetica;
+    text-align: center;
+}
+#checkout table {
+    margin: 30px auto;
+}
+#checkout tr, td{
+    padding: 20px 10px;
+    font-size: 20px;
+    font-family: Arial;
+}
+#checkout input[type=text] {
+    width: 400px;
+    height: 40px;
+}
+#checkout input[type=submit] {
+    width: 100px;
+    height: 30px;
+}
+
+#no_product {
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+}
+#no_product > h4 {
+    margin-top: 50px;
+    font-size: 25px;
+    text-align: center;
+    font-family: Verdana;
+}
+#no_product > a {
+    text-decoration: none;
+}
+#no_product > a > p {
+    margin-top: 100px;
+    color: black;
+}
+
+/* ------------------------------------*/
+/* details.php */
+/* Top table */
+#order_details {
+    width: 700px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+#order_details > h2 {
+    margin-top: 50px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 40px;
+}
+
+#order_details > p {
+    text-align: center;
+    font-family: Arial;
+    margin-top: 40px;
+}
+
+#user_details {
+    width: 100%;
+    margin-top: 50px;
+    border: 1px solid #222; 
+    border-collapse: collapse;
+}
+#order_details > a {
+    background-color: black;
+    color:white;
+    padding: 3px;
+    font-weight: 700;
+    font-family: Arial;
+    float: right;
+    text-decoration: none;
+}
+#order_details > a:hover {
+    background-color: white;
+    color:black;
+}
+#order_details td {
+    border: 1px solid #222; 
+    border-collapse: collapse;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+/* Bottom table */
+#receipt {
+    width: 100%;
+    margin-top: 50px;
+    border: 1px solid #222; 
+    border-collapse: collapse;
+}
+#receipt th {
+    border: 1px solid #222; 
+    border-collapse: collapse;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+#receipt td {
+    border: 1px solid #222; 
+    border-collapse: collapse;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+/* ------------------------------------*/
